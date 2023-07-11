@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D95B3682A5D7E40004A62DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95B3672A5D7E40004A62DB /* AppDelegate.swift */; };
+		0D95B36A2A5D7E40004A62DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95B3692A5D7E40004A62DB /* SceneDelegate.swift */; };
+		0D95B36D2A5D7E40004A62DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B36B2A5D7E40004A62DB /* LaunchScreen.storyboard */; };
+		0D95B3702A5D7E40004A62DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B36E2A5D7E40004A62DB /* Main.storyboard */; };
+		0D95B3792A5D7E40004A62DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95B3782A5D7E40004A62DB /* AppDelegate.swift */; };
+		0D95B37C2A5D7E40004A62DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B37A2A5D7E40004A62DB /* Main.storyboard */; };
+		0D95B3832A5D7E40004A62DB /* AppleSearchAdsHelper Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0D95B3822A5D7E40004A62DB /* AppleSearchAdsHelper Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0D95B38D2A5D7E40004A62DB /* AppleSearchAdsHelper Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0D95B38C2A5D7E40004A62DB /* AppleSearchAdsHelper Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0D95B3932A5D7E40004A62DB /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B34E2A5D7E3F004A62DB /* Main.html */; };
+		0D95B3942A5D7E40004A62DB /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B34E2A5D7E3F004A62DB /* Main.html */; };
+		0D95B3952A5D7E40004A62DB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B3502A5D7E3F004A62DB /* Icon.png */; };
+		0D95B3962A5D7E40004A62DB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B3502A5D7E3F004A62DB /* Icon.png */; };
+		0D95B3972A5D7E40004A62DB /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B3512A5D7E3F004A62DB /* Style.css */; };
+		0D95B3982A5D7E40004A62DB /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B3512A5D7E3F004A62DB /* Style.css */; };
+		0D95B3992A5D7E40004A62DB /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B3522A5D7E3F004A62DB /* Script.js */; };
+		0D95B39A2A5D7E40004A62DB /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B3522A5D7E3F004A62DB /* Script.js */; };
+		0D95B39B2A5D7E40004A62DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95B3532A5D7E3F004A62DB /* ViewController.swift */; };
+		0D95B39C2A5D7E40004A62DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95B3532A5D7E3F004A62DB /* ViewController.swift */; };
+		0D95B39D2A5D7E40004A62DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B3542A5D7E40004A62DB /* Assets.xcassets */; };
+		0D95B39E2A5D7E40004A62DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B3542A5D7E40004A62DB /* Assets.xcassets */; };
+		0D95B39F2A5D7E40004A62DB /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95B3562A5D7E40004A62DB /* SafariWebExtensionHandler.swift */; };
+		0D95B3A02A5D7E40004A62DB /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D95B3562A5D7E40004A62DB /* SafariWebExtensionHandler.swift */; };
+		0D95B3A12A5D7E40004A62DB /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B3582A5D7E40004A62DB /* _locales */; };
+		0D95B3A22A5D7E40004A62DB /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B3582A5D7E40004A62DB /* _locales */; };
+		0D95B3A32A5D7E40004A62DB /* images in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B3592A5D7E40004A62DB /* images */; };
+		0D95B3A42A5D7E40004A62DB /* images in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B3592A5D7E40004A62DB /* images */; };
+		0D95B3A52A5D7E40004A62DB /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B35A2A5D7E40004A62DB /* manifest.json */; };
+		0D95B3A62A5D7E40004A62DB /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B35A2A5D7E40004A62DB /* manifest.json */; };
+		0D95B3A72A5D7E40004A62DB /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B35B2A5D7E40004A62DB /* background.js */; };
+		0D95B3A82A5D7E40004A62DB /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B35B2A5D7E40004A62DB /* background.js */; };
+		0D95B3A92A5D7E40004A62DB /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B35C2A5D7E40004A62DB /* content.js */; };
+		0D95B3AA2A5D7E40004A62DB /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B35C2A5D7E40004A62DB /* content.js */; };
+		0D95B3AB2A5D7E40004A62DB /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B35D2A5D7E40004A62DB /* popup.html */; };
+		0D95B3AC2A5D7E40004A62DB /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B35D2A5D7E40004A62DB /* popup.html */; };
+		0D95B3AD2A5D7E40004A62DB /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B35E2A5D7E40004A62DB /* popup.css */; };
+		0D95B3AE2A5D7E40004A62DB /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B35E2A5D7E40004A62DB /* popup.css */; };
+		0D95B3AF2A5D7E40004A62DB /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B35F2A5D7E40004A62DB /* popup.js */; };
+		0D95B3B02A5D7E40004A62DB /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 0D95B35F2A5D7E40004A62DB /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D95B3842A5D7E40004A62DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D95B3482A5D7E3F004A62DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D95B3812A5D7E40004A62DB;
+			remoteInfo = "AppleSearchAdsHelper Extension (iOS)";
+		};
+		0D95B38E2A5D7E40004A62DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D95B3482A5D7E3F004A62DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D95B38B2A5D7E40004A62DB;
+			remoteInfo = "AppleSearchAdsHelper Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0D95B3B62A5D7E40004A62DB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0D95B3832A5D7E40004A62DB /* AppleSearchAdsHelper Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D95B3BD2A5D7E40004A62DB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0D95B38D2A5D7E40004A62DB /* AppleSearchAdsHelper Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D95B34F2A5D7E3F004A62DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		0D95B3502A5D7E3F004A62DB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		0D95B3512A5D7E3F004A62DB /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		0D95B3522A5D7E3F004A62DB /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		0D95B3532A5D7E3F004A62DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D95B3542A5D7E40004A62DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D95B3562A5D7E40004A62DB /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		0D95B3582A5D7E40004A62DB /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		0D95B3592A5D7E40004A62DB /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		0D95B35A2A5D7E40004A62DB /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		0D95B35B2A5D7E40004A62DB /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		0D95B35C2A5D7E40004A62DB /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		0D95B35D2A5D7E40004A62DB /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		0D95B35E2A5D7E40004A62DB /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		0D95B35F2A5D7E40004A62DB /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		0D95B3642A5D7E40004A62DB /* AppleSearchAdsHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleSearchAdsHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D95B3672A5D7E40004A62DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D95B3692A5D7E40004A62DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0D95B36C2A5D7E40004A62DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D95B36F2A5D7E40004A62DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D95B3712A5D7E40004A62DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D95B3762A5D7E40004A62DB /* AppleSearchAdsHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleSearchAdsHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D95B3782A5D7E40004A62DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D95B37B2A5D7E40004A62DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D95B37D2A5D7E40004A62DB /* AppleSearchAdsHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleSearchAdsHelper.entitlements; sourceTree = "<group>"; };
+		0D95B3822A5D7E40004A62DB /* AppleSearchAdsHelper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AppleSearchAdsHelper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D95B3872A5D7E40004A62DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D95B38C2A5D7E40004A62DB /* AppleSearchAdsHelper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AppleSearchAdsHelper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D95B3912A5D7E40004A62DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D95B3922A5D7E40004A62DB /* AppleSearchAdsHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleSearchAdsHelper.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D95B3612A5D7E40004A62DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D95B3732A5D7E40004A62DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D95B37F2A5D7E40004A62DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D95B3892A5D7E40004A62DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D95B3472A5D7E3F004A62DB = {
+			isa = PBXGroup;
+			children = (
+				0D95B34C2A5D7E3F004A62DB /* Shared (App) */,
+				0D95B3552A5D7E40004A62DB /* Shared (Extension) */,
+				0D95B3662A5D7E40004A62DB /* iOS (App) */,
+				0D95B3772A5D7E40004A62DB /* macOS (App) */,
+				0D95B3862A5D7E40004A62DB /* iOS (Extension) */,
+				0D95B3902A5D7E40004A62DB /* macOS (Extension) */,
+				0D95B3652A5D7E40004A62DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D95B34C2A5D7E3F004A62DB /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				0D95B3532A5D7E3F004A62DB /* ViewController.swift */,
+				0D95B3542A5D7E40004A62DB /* Assets.xcassets */,
+				0D95B34D2A5D7E3F004A62DB /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		0D95B34D2A5D7E3F004A62DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D95B34E2A5D7E3F004A62DB /* Main.html */,
+				0D95B3502A5D7E3F004A62DB /* Icon.png */,
+				0D95B3512A5D7E3F004A62DB /* Style.css */,
+				0D95B3522A5D7E3F004A62DB /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0D95B3552A5D7E40004A62DB /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				0D95B3562A5D7E40004A62DB /* SafariWebExtensionHandler.swift */,
+				0D95B3572A5D7E40004A62DB /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		0D95B3572A5D7E40004A62DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D95B3582A5D7E40004A62DB /* _locales */,
+				0D95B3592A5D7E40004A62DB /* images */,
+				0D95B35A2A5D7E40004A62DB /* manifest.json */,
+				0D95B35B2A5D7E40004A62DB /* background.js */,
+				0D95B35C2A5D7E40004A62DB /* content.js */,
+				0D95B35D2A5D7E40004A62DB /* popup.html */,
+				0D95B35E2A5D7E40004A62DB /* popup.css */,
+				0D95B35F2A5D7E40004A62DB /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0D95B3652A5D7E40004A62DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D95B3642A5D7E40004A62DB /* AppleSearchAdsHelper.app */,
+				0D95B3762A5D7E40004A62DB /* AppleSearchAdsHelper.app */,
+				0D95B3822A5D7E40004A62DB /* AppleSearchAdsHelper Extension.appex */,
+				0D95B38C2A5D7E40004A62DB /* AppleSearchAdsHelper Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D95B3662A5D7E40004A62DB /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				0D95B3672A5D7E40004A62DB /* AppDelegate.swift */,
+				0D95B3692A5D7E40004A62DB /* SceneDelegate.swift */,
+				0D95B36B2A5D7E40004A62DB /* LaunchScreen.storyboard */,
+				0D95B36E2A5D7E40004A62DB /* Main.storyboard */,
+				0D95B3712A5D7E40004A62DB /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		0D95B3772A5D7E40004A62DB /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				0D95B3782A5D7E40004A62DB /* AppDelegate.swift */,
+				0D95B37A2A5D7E40004A62DB /* Main.storyboard */,
+				0D95B37D2A5D7E40004A62DB /* AppleSearchAdsHelper.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		0D95B3862A5D7E40004A62DB /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				0D95B3872A5D7E40004A62DB /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		0D95B3902A5D7E40004A62DB /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				0D95B3912A5D7E40004A62DB /* Info.plist */,
+				0D95B3922A5D7E40004A62DB /* AppleSearchAdsHelper.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D95B3632A5D7E40004A62DB /* AppleSearchAdsHelper (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D95B3B72A5D7E40004A62DB /* Build configuration list for PBXNativeTarget "AppleSearchAdsHelper (iOS)" */;
+			buildPhases = (
+				0D95B3602A5D7E40004A62DB /* Sources */,
+				0D95B3612A5D7E40004A62DB /* Frameworks */,
+				0D95B3622A5D7E40004A62DB /* Resources */,
+				0D95B3B62A5D7E40004A62DB /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D95B3852A5D7E40004A62DB /* PBXTargetDependency */,
+			);
+			name = "AppleSearchAdsHelper (iOS)";
+			productName = "AppleSearchAdsHelper (iOS)";
+			productReference = 0D95B3642A5D7E40004A62DB /* AppleSearchAdsHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D95B3752A5D7E40004A62DB /* AppleSearchAdsHelper (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D95B3BE2A5D7E40004A62DB /* Build configuration list for PBXNativeTarget "AppleSearchAdsHelper (macOS)" */;
+			buildPhases = (
+				0D95B3722A5D7E40004A62DB /* Sources */,
+				0D95B3732A5D7E40004A62DB /* Frameworks */,
+				0D95B3742A5D7E40004A62DB /* Resources */,
+				0D95B3BD2A5D7E40004A62DB /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D95B38F2A5D7E40004A62DB /* PBXTargetDependency */,
+			);
+			name = "AppleSearchAdsHelper (macOS)";
+			productName = "AppleSearchAdsHelper (macOS)";
+			productReference = 0D95B3762A5D7E40004A62DB /* AppleSearchAdsHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D95B3812A5D7E40004A62DB /* AppleSearchAdsHelper Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D95B3B32A5D7E40004A62DB /* Build configuration list for PBXNativeTarget "AppleSearchAdsHelper Extension (iOS)" */;
+			buildPhases = (
+				0D95B37E2A5D7E40004A62DB /* Sources */,
+				0D95B37F2A5D7E40004A62DB /* Frameworks */,
+				0D95B3802A5D7E40004A62DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppleSearchAdsHelper Extension (iOS)";
+			productName = "AppleSearchAdsHelper Extension (iOS)";
+			productReference = 0D95B3822A5D7E40004A62DB /* AppleSearchAdsHelper Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		0D95B38B2A5D7E40004A62DB /* AppleSearchAdsHelper Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D95B3BA2A5D7E40004A62DB /* Build configuration list for PBXNativeTarget "AppleSearchAdsHelper Extension (macOS)" */;
+			buildPhases = (
+				0D95B3882A5D7E40004A62DB /* Sources */,
+				0D95B3892A5D7E40004A62DB /* Frameworks */,
+				0D95B38A2A5D7E40004A62DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppleSearchAdsHelper Extension (macOS)";
+			productName = "AppleSearchAdsHelper Extension (macOS)";
+			productReference = 0D95B38C2A5D7E40004A62DB /* AppleSearchAdsHelper Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D95B3482A5D7E3F004A62DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0D95B3632A5D7E40004A62DB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					0D95B3752A5D7E40004A62DB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					0D95B3812A5D7E40004A62DB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					0D95B38B2A5D7E40004A62DB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0D95B34B2A5D7E3F004A62DB /* Build configuration list for PBXProject "AppleSearchAdsHelper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D95B3472A5D7E3F004A62DB;
+			productRefGroup = 0D95B3652A5D7E40004A62DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D95B3632A5D7E40004A62DB /* AppleSearchAdsHelper (iOS) */,
+				0D95B3752A5D7E40004A62DB /* AppleSearchAdsHelper (macOS) */,
+				0D95B3812A5D7E40004A62DB /* AppleSearchAdsHelper Extension (iOS) */,
+				0D95B38B2A5D7E40004A62DB /* AppleSearchAdsHelper Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D95B3622A5D7E40004A62DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D95B3952A5D7E40004A62DB /* Icon.png in Resources */,
+				0D95B36D2A5D7E40004A62DB /* LaunchScreen.storyboard in Resources */,
+				0D95B3932A5D7E40004A62DB /* Main.html in Resources */,
+				0D95B3992A5D7E40004A62DB /* Script.js in Resources */,
+				0D95B39D2A5D7E40004A62DB /* Assets.xcassets in Resources */,
+				0D95B3702A5D7E40004A62DB /* Main.storyboard in Resources */,
+				0D95B3972A5D7E40004A62DB /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D95B3742A5D7E40004A62DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D95B3962A5D7E40004A62DB /* Icon.png in Resources */,
+				0D95B3982A5D7E40004A62DB /* Style.css in Resources */,
+				0D95B37C2A5D7E40004A62DB /* Main.storyboard in Resources */,
+				0D95B39A2A5D7E40004A62DB /* Script.js in Resources */,
+				0D95B39E2A5D7E40004A62DB /* Assets.xcassets in Resources */,
+				0D95B3942A5D7E40004A62DB /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D95B3802A5D7E40004A62DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D95B3A72A5D7E40004A62DB /* background.js in Resources */,
+				0D95B3AD2A5D7E40004A62DB /* popup.css in Resources */,
+				0D95B3AB2A5D7E40004A62DB /* popup.html in Resources */,
+				0D95B3A32A5D7E40004A62DB /* images in Resources */,
+				0D95B3A52A5D7E40004A62DB /* manifest.json in Resources */,
+				0D95B3A12A5D7E40004A62DB /* _locales in Resources */,
+				0D95B3A92A5D7E40004A62DB /* content.js in Resources */,
+				0D95B3AF2A5D7E40004A62DB /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D95B38A2A5D7E40004A62DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D95B3A82A5D7E40004A62DB /* background.js in Resources */,
+				0D95B3AE2A5D7E40004A62DB /* popup.css in Resources */,
+				0D95B3AC2A5D7E40004A62DB /* popup.html in Resources */,
+				0D95B3A42A5D7E40004A62DB /* images in Resources */,
+				0D95B3A62A5D7E40004A62DB /* manifest.json in Resources */,
+				0D95B3A22A5D7E40004A62DB /* _locales in Resources */,
+				0D95B3AA2A5D7E40004A62DB /* content.js in Resources */,
+				0D95B3B02A5D7E40004A62DB /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D95B3602A5D7E40004A62DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D95B39B2A5D7E40004A62DB /* ViewController.swift in Sources */,
+				0D95B3682A5D7E40004A62DB /* AppDelegate.swift in Sources */,
+				0D95B36A2A5D7E40004A62DB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D95B3722A5D7E40004A62DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D95B39C2A5D7E40004A62DB /* ViewController.swift in Sources */,
+				0D95B3792A5D7E40004A62DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D95B37E2A5D7E40004A62DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D95B39F2A5D7E40004A62DB /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D95B3882A5D7E40004A62DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D95B3A02A5D7E40004A62DB /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D95B3852A5D7E40004A62DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D95B3812A5D7E40004A62DB /* AppleSearchAdsHelper Extension (iOS) */;
+			targetProxy = 0D95B3842A5D7E40004A62DB /* PBXContainerItemProxy */;
+		};
+		0D95B38F2A5D7E40004A62DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D95B38B2A5D7E40004A62DB /* AppleSearchAdsHelper Extension (macOS) */;
+			targetProxy = 0D95B38E2A5D7E40004A62DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D95B34E2A5D7E3F004A62DB /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D95B34F2A5D7E3F004A62DB /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		0D95B36B2A5D7E40004A62DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D95B36C2A5D7E40004A62DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0D95B36E2A5D7E40004A62DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D95B36F2A5D7E40004A62DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D95B37A2A5D7E40004A62DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D95B37B2A5D7E40004A62DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D95B3B12A5D7E40004A62DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D95B3B22A5D7E40004A62DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0D95B3B42A5D7E40004A62DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5632LMY37D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AppleSearchAdsHelper Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.husamaamer.AppleSearchAdsHelper.Extension;
+				PRODUCT_NAME = "AppleSearchAdsHelper Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D95B3B52A5D7E40004A62DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5632LMY37D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AppleSearchAdsHelper Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.husamaamer.AppleSearchAdsHelper.Extension;
+				PRODUCT_NAME = "AppleSearchAdsHelper Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D95B3B82A5D7E40004A62DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5632LMY37D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = AppleSearchAdsHelper;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.husamaamer.AppleSearchAdsHelper;
+				PRODUCT_NAME = AppleSearchAdsHelper;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D95B3B92A5D7E40004A62DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5632LMY37D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = AppleSearchAdsHelper;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.husamaamer.AppleSearchAdsHelper;
+				PRODUCT_NAME = AppleSearchAdsHelper;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D95B3BB2A5D7E40004A62DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/AppleSearchAdsHelper.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5632LMY37D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AppleSearchAdsHelper Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.husamaamer.AppleSearchAdsHelper.Extension;
+				PRODUCT_NAME = "AppleSearchAdsHelper Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0D95B3BC2A5D7E40004A62DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/AppleSearchAdsHelper.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5632LMY37D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "AppleSearchAdsHelper Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.husamaamer.AppleSearchAdsHelper.Extension;
+				PRODUCT_NAME = "AppleSearchAdsHelper Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0D95B3BF2A5D7E40004A62DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/AppleSearchAdsHelper.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5632LMY37D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AppleSearchAdsHelper;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.husamaamer.AppleSearchAdsHelper;
+				PRODUCT_NAME = AppleSearchAdsHelper;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0D95B3C02A5D7E40004A62DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/AppleSearchAdsHelper.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5632LMY37D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AppleSearchAdsHelper;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.husamaamer.AppleSearchAdsHelper;
+				PRODUCT_NAME = AppleSearchAdsHelper;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D95B34B2A5D7E3F004A62DB /* Build configuration list for PBXProject "AppleSearchAdsHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D95B3B12A5D7E40004A62DB /* Debug */,
+				0D95B3B22A5D7E40004A62DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D95B3B32A5D7E40004A62DB /* Build configuration list for PBXNativeTarget "AppleSearchAdsHelper Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D95B3B42A5D7E40004A62DB /* Debug */,
+				0D95B3B52A5D7E40004A62DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D95B3B72A5D7E40004A62DB /* Build configuration list for PBXNativeTarget "AppleSearchAdsHelper (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D95B3B82A5D7E40004A62DB /* Debug */,
+				0D95B3B92A5D7E40004A62DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D95B3BA2A5D7E40004A62DB /* Build configuration list for PBXNativeTarget "AppleSearchAdsHelper Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D95B3BB2A5D7E40004A62DB /* Debug */,
+				0D95B3BC2A5D7E40004A62DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D95B3BE2A5D7E40004A62DB /* Build configuration list for PBXNativeTarget "AppleSearchAdsHelper (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D95B3BF2A5D7E40004A62DB /* Debug */,
+				0D95B3C02A5D7E40004A62DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D95B3482A5D7E3F004A62DB /* Project object */;
+}
